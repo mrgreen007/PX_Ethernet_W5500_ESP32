@@ -1,0 +1,29 @@
+{
+  "name":"PX_Ethernet_W5500_ESP32",
+  "version": "1.0.0",
+  "description":"This is Ethernet library (ESP32 + LwIP W5500).",
+  "keywords":"http, async, async-webserver, websocket, webserver, esp32, w5500, lwip",
+  "authors": 
+  [
+    {
+      "name": "Sabuj Biswas",
+      "url":   "https://github.com/mrgreen007",
+      "email": "mail@sabuj.in",
+      "maintainer": true
+    },
+    {
+      "name":  "Rishav Roy",
+      "url":   "https://github.com/vomlaka"
+    }  
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/mrgreen007/"
+  },
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"],
+  "examples": "examples/*/*/*.ino",
+  "headers": ["PX_Ethernet_W5500_ESP32.h"]
+}
